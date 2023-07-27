@@ -52,6 +52,8 @@ body button {
   background: #e8e6e6;
   border-radius: 5px;
   padding: 2px;
+  font-size: 1rem;
+  color: #000;
 }
 
 body #increaseBtn,

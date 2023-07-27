@@ -8,7 +8,8 @@ document.getElementById("increaseBtn").onclick = function() {
     }
 }
 document.getElementById("resetBtn").onclick = function() {
-    document.getElementById("countLabel").innerHTML = 0;
+    counter = 0
+    document.getElementById("countLabel").innerHTML = counter;
     document.getElementById("allahuakbar").style.background = "rgba(255, 255, 255, 0.9)";
 }
 
@@ -22,7 +23,8 @@ document.getElementById("increaseBtn1").onclick = function() {
     }
 }
 document.getElementById("resetBtn1").onclick = function() {
-    document.getElementById("countLabel1").innerHTML = 0;
+    counter1 = 0;
+    document.getElementById("countLabel1").innerHTML = counter1;
     document.getElementById("alhamdulillah").style.background = "rgba(255, 255, 255, 0.9)";
 }
 
@@ -36,6 +38,7 @@ document.getElementById("increaseBtn2").onclick = function() {
     }
 }
 document.getElementById("resetBtn2").onclick = function() {
-    document.getElementById("countLabel2").innerHTML = 0;
+    counter2 = 0
+    document.getElementById("countLabel2").innerHTML = counter2;
     document.getElementById("subhanaallah").style.background = "rgba(255, 255, 255, 0.9)";
 }
