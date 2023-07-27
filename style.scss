@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .bg {
+    width: 100vw;
+    img {
+      height: 100vh;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  .d-flex p {
+    margin-top: 5px;
+  }
+  .d-flex.flex-allahuakbar,
+  .d-flex.flex-alhamdulillah,
+  .d-flex.flex-subhanaallah {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 5%;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 1.5rem 2rem;
+    border-radius: 20px;
+  }
+
+  .d-flex.flex-alhamdulillah {
+    top: 37%;
+  }
+
+  .d-flex.flex-subhanaallah {
+    top: 69%;
+  }
+
+  #countLabel {
+    margin-bottom: 10px;
+  }
+  button {
+    border: none;
+    background: #e8e6e6;
+    border-radius: 5px;
+    padding: 2px;
+  }
+  #increaseBtn {
+    margin-bottom: 7px;
+  }
+}

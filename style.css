@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .bg {
+  width: 100vw;
+}
+
+body .bg img {
+  height: 100vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+body .d-flex p {
+  margin-top: 5px;
+}
+
+body .d-flex.flex-allahuakbar,
+body .d-flex.flex-alhamdulillah,
+body .d-flex.flex-subhanaallah {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 5%;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 1.5rem 2rem;
+  border-radius: 20px;
+}
+
+body .d-flex.flex-alhamdulillah {
+  top: 37%;
+}
+
+body .d-flex.flex-subhanaallah {
+  top: 69%;
+}
+
+body #countLabel {
+  margin-bottom: 10px;
+}
+
+body button {
+  border: none;
+  background: #e8e6e6;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+body #increaseBtn {
+  margin-bottom: 7px;
+}
+/*# sourceMappingURL=style.css.map */
