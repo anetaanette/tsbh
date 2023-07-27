@@ -3,17 +3,12 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-
-  .bg {
-    width: 100vw;
-    img {
-      height: 100vh;
-      width: 100%;
-      object-fit: cover;
-      object-position: center;
-    }
-  }
+  justify-content: space-evenly;
+  height: 100vh;
+  background-image: url(./bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   .d-flex p {
     margin-top: 5px;
@@ -24,22 +19,15 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 5%;
+    position: relative;
     background-color: rgba(255, 255, 255, 0.9);
     padding: 1.5rem 2rem;
     border-radius: 20px;
   }
 
-  .d-flex.flex-alhamdulillah {
-    top: 37%;
-  }
-
-  .d-flex.flex-subhanaallah {
-    top: 69%;
-  }
-
-  #countLabel {
+  #countLabel,
+  #countLabel1,
+  #countLabel2 {
     margin-bottom: 10px;
   }
   button {
@@ -48,7 +36,15 @@ body {
     border-radius: 5px;
     padding: 2px;
   }
-  #increaseBtn {
+  #increaseBtn,
+  #increaseBtn1,
+  #increaseBtn2 {
     margin-bottom: 7px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  body {
+    flex-direction: row;
   }
 }

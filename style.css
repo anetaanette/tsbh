@@ -10,22 +10,14 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-body .bg {
-  width: 100vw;
-}
-
-body .bg img {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   height: 100vh;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+  background-image: url(./bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body .d-flex p {
@@ -43,22 +35,15 @@ body .d-flex.flex-subhanaallah {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  position: absolute;
-  top: 5%;
+  position: relative;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 1.5rem 2rem;
   border-radius: 20px;
 }
 
-body .d-flex.flex-alhamdulillah {
-  top: 37%;
-}
-
-body .d-flex.flex-subhanaallah {
-  top: 69%;
-}
-
-body #countLabel {
+body #countLabel,
+body #countLabel1,
+body #countLabel2 {
   margin-bottom: 10px;
 }
 
@@ -69,7 +54,18 @@ body button {
   padding: 2px;
 }
 
-body #increaseBtn {
+body #increaseBtn,
+body #increaseBtn1,
+body #increaseBtn2 {
   margin-bottom: 7px;
+}
+
+@media all and (min-width: 768px) {
+  body {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 /*# sourceMappingURL=style.css.map */
