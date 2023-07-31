@@ -34,15 +34,16 @@ body {
     border: none;
     background: #e8e6e6;
     border-radius: 5px;
-    padding: 2px;
+    padding: 9px;
     font-size: 1rem;
     color: #000;
   }
-  #increaseBtn,
-  #increaseBtn1,
-  #increaseBtn2 {
-    margin-bottom: 7px;
-  }
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 @media all and (min-width: 768px) {
